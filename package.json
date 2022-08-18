@@ -1,0 +1,33 @@
+{
+  "name": "tsc-es6-imports",
+  "version": "1.0.0-beta.1",
+  "description": "Command line tool for transpiling TypeScript ES6 imports into JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "npx prettier --check .",
+    "format": "npx prettier --write ."
+  },
+  "bin": {
+    "tsc-es6-imports": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meech3/tsc-es6-imports.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Mitchell Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meech3/tsc-es6-imports/issues"
+  },
+  "homepage": "https://github.com/meech3/tsc-es6-imports#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
